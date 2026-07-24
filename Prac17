@@ -1,0 +1,30 @@
+def add(a,b):
+    return a+b
+def subtract(a,b):
+    return a-b
+def multipy(a,b):
+    return a*b
+def divide(a,b):
+    if b==0:
+        return "cannot divide by zero"
+    return a/b
+print("welcome to calculator--- chose option")
+print("1-addition")
+print("2-subtract")
+print("3-multipy")
+print("4-divide")
+choice = int(input("enter choice : "))
+num1 = float(input("enter first number : "))
+num2 = float(input("enter second number : "))
+
+match choice:
+    case 1:
+        print(f"additon of the number is : {add(num1,num2)}")
+    case 2:
+        print(f"subtract of the number is : {add(num1,num2)}")
+    case 3:
+        print(f"multiply of the number is : {add(num1,num2)}")
+    case 4:
+        print(f"divide of the number is : {add(num1,num2)}")
+    case _:
+        print("invalid choice")
