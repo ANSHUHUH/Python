@@ -1,0 +1,9 @@
+s = input("enter a string : ")ansh
+rev = ""
+for char in s:
+    rev = char + rev
+
+if s == rev:
+    print("it is palindrome")
+else:
+    print("it is not a palindrome")
