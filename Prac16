@@ -1,0 +1,6 @@
+def split_and_join(text):
+    words = text.split()
+    new_text = "-".join(words)
+    return new_text
+message = input("enter a sentence : ")
+print(split_and_join(message))
