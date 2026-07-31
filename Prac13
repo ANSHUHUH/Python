@@ -1,0 +1,9 @@
+row = 5
+for i in range(row):
+    num = 2**i
+    row_number = []
+    while num >= 1:
+        row_number.append(str(num))
+        num = num//2
+    
+    print(" ".join(row_number))
